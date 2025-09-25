@@ -8,8 +8,8 @@ function calculateRentalCost(days) {
   const LONG_TERM_DAYS = 7;
   const MID_TERM_DISCOUNT = 20;
   const LONG_TERM_DISCOUNT = 50;
-  const DAYLY_RATE = 40;
-  const TOTAL_PRICE = DAYLY_RATE * days;
+  const DAILY_RATE = 40;
+  const TOTAL_PRICE = DAILY_RATE * days;
 
   if (days >= LONG_TERM_DAYS) {
     return TOTAL_PRICE - LONG_TERM_DISCOUNT;
